@@ -3,32 +3,74 @@
     <head>
         <title>index</title>
         <style>
-           #email,#name,#number{
-            color: blue;
+            #heading{
+                color:aliceblue;
+                background-color: #6D214F;
+
+                border-width: 5px;
+                border-radius: 30px;
+                border-top: 30px;
+                border-bottom-style: solid;
+                border-bottom-color:chartreuse;
+
+                padding-left: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+            }
+            #navigate{
+                color:black;
+                 background-color:#130f40;
+                border-color: aqua;
+                border-bottom-style: solid;
+                border-bottom-color:brown;
+                border-radius: 30px;
+                border-bottom-width: 5px;
+                
+
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-bottom: 10px;
+
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+           .name{
+            /* color: blue;
             background-color:gold;
+            border: 2px saddlebrown;
+            border-bottom-style:solid; */
+            margin-right: 30px;
            } 
+           .home{
+            color:azure;
+            margin-right: 20px;
+            
+            
+           }  
+          
         </style>
          <!-- CDN link -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            <strong id="name"><i class="fa fa-user-circle-o fa-1x" aria-hidden="true"></i> Arti Mote</strong>  &nbsp;&nbsp;
-            <strong id="number"><i class="fa fa-phone-square fa-1x" aria-hidden="true"></i> 8669366068</strong> &nbsp; &nbsp;
-            <strong id="email"><i class="fa fa-envelope" aria-hidden="true"></i> motearti@gmail.com</strong>&nbsp;&nbsp;
+        <header id="heading">
+            <strong class="name"><i class="fa fa-user-circle-o fa-1x" aria-hidden="true"></i> Arti Mote</strong>  &nbsp;&nbsp;
+            <strong class="name"><i class="fa fa-phone-square fa-1x" aria-hidden="true"></i> 8669366068</strong> &nbsp; &nbsp;
+            <strong class="name"><i class="fa fa-envelope" aria-hidden="true"></i> motearti@gmail.com</strong>&nbsp;&nbsp;
            </header> 
         </header>
-        <nav>
-            <a href="home.html" target="my frame">Home</a> &nbsp;&nbsp;
-            <a href="techStack.html" target="my frame">Teck Stack</a>&nbsp;&nbsp;
-            <a href="education.html"target="my frame">Education</a> &nbsp;&nbsp;
-            <a href="personalDetails.html" target="my frame">Personal Details</a>&nbsp;&nbsp;
-            <a href="hobbies.html" target="my frame">hobbies</a>&nbsp;&nbsp;
-            <a href="contactUs.html" target="my frame">contactus</a>
+        <nav id="navigate">
+            <a href="home.html" target="my frame"> <strong class="home">HOME</strong></a>&nbsp;&nbsp;
+            <a href="techStack.html" target="my frame"> <strong class="home">TECH STACK</strong></a>&nbsp;&nbsp;
+            <a href="education.html"target="my frame"> <strong class="home">EDUCATION</strong></a> &nbsp;&nbsp;
+            <a href="personalDetails.html" target="my frame"><strong class="home">PERSONAL DETAILS</strong></a>&nbsp;&nbsp;
+            <a href="hobbies.html" target="my frame"><strong class="home">HABBIES</strong class="home"></a>&nbsp;&nbsp;
+            <a href="contactUs.html" target="my frame"><strong class="home">CONTACT US</strong></a>
         </nav>
         <br>
         
-        <iframe width="600px" height="400px" name="my frame"></iframe>
+        <iframe width="1000px" height="400px" name="my frame"></iframe>
         <br>
         <footer>
             <strong>Follow me</strong> &nbsp;&nbsp;
