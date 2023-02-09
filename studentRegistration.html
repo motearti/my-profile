@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration  </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap" rel="stylesheet">
+<style>
+  h2{
+    font-family: 'Pacifico', cursive;
+  }
+
+  label{
+    font-family: 'Itim', cursive;
+  }
+
+  #form{
+    font-family: 'Pacifico', cursive;
+  }
+ /* Attribute selector */
+  input[ type="text"]{
+    color: blue;
+  }
+
+  button[ type="submit"]{
+    color:blue;
+  }
+  
+  .submit{
+    border-width: 5px;
+    padding: 5px;
+    border-color: brown;
+    background-color: blanchedalmond;
+  }
+ #body td{
+  color: blue;
+  text-decoration-color: blueviolet;
+ } 
+</style>
+</head>
+<body>
+  <h2> Student Registration Form </h2>
+  <fieldset>  
+    <legend> <span id="form"> Student Registration Form </span> </legend>
+  <form>
+    <!-- <lable> First Name </lable>
+    <input type="text"> <br>
+    <lable>Last Name </lable>
+    <input type="text"> <br>
+
+    <lable>age</lable> 
+    <input type="number"> -->
+  </form>
+  <form>
+  <table>
+    <tbody id="body"> 
+        <tr> 
+            <td> <label> First Name </label>  </td>
+            <td> <input type="text" maxlength="10" autofocus placeholder="first name with only 10 char" > </td>
+        </tr>
+        <tr>
+           <td> <label> Last Name </label> </td> 
+           <td>  <input type="text" placeholder=" pls last name only">   </td>  
+        </tr>
+        <tr>
+            <td> <label> Age </label></td>
+            <td> <input type="number" maxlength="98"> </td>
+        </tr>
+        <tr>
+          <td> <label> Mobile Number </lable></td>
+          <td> <input type="number"> </td>
+          </tr>
+          <tr>
+          <td> <label> Email </lable></td>
+          <td> <input type="email" ></td>
+        </tr>
+        <tr>
+          <td> <label> Passward </lable></td>
+          <td> <input type="password"></td>
+        </tr>
+        <tr>
+          <td>  <label> Date Of Birth </label>   </td>
+          <td> <input type="date">   </td>
+       </tr>
+       <tr>
+        <td>  <label> Country</label>   </td>
+        <td> <input type="text" value="India" readonly>   </td>
+     </tr>
+       
+       <tr>
+        <td> <label> Select Degree  </label> </td>
+        <td> 
+            <select>
+                <option> MCA </option>
+                <option> BE </option>
+                <option> BCA </option>
+                <option> BBA </option>
+                <option> MCS </option>
+                <option> BSC</option>
+            </select>
+        </td>
+        <tr> 
+          <td> <label> Select Gender </label> </td>
+          <td> 
+              <input type="radio" name="gender"> <label> Male </label>
+              <input type="radio" name="gender"> <label> Female </label>
+              <input type="radio" name="gender"> <label> Others </label>
+          </td>
+          <tr>
+            <td> <label> Select you hobby </label>  </td>
+            <td>  
+                <input type="checkbox"> <label> Reading </label>
+                <input type="checkbox"> <label> Watching Motivation Videos </label>
+                <input type="checkbox"> <label> Dancing </label>
+            </td>
+        </tr>
+        <tr>
+          <td> <label> Upload Profile Photo </label> </td>
+          <td> <input type="file"> </td>
+      </tr>
+
+      <tr> 
+          <td><label> Upload Graduation Mark sheets </label></td>
+          <td> <input type="file" multiple> </td>
+      </tr>
+      <tr> 
+        <td> <label> Present Address </label>  </td>
+        <td>  <textarea rows="5" cols="40"></textarea> </td>
+    </tr>
+    <tr>
+      <td> <button type="submit"  class="submit"> Submit </button>  </td>
+      <td>  <button type="reset"  class="submit"> Reset </button>  </td>
+  </tr>
+    </tbody>
+  
+</table>
+  </form>
+</body>  
+</html>
