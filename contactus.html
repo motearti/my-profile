@@ -1,43 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>contact us</title>
-        <!-- CDN link -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <h3> Contact us</h3>
-        <fieldset>
-            <legend>
-                <span>Contact us</span>
-            </legend>
-            <form>
-        <table>
-            <tbody>
-                <tr>
-                    <td> <lable>Full Name</lable></td>
-                    <td><input type="text" maxlength="10" placeholder="max character length=10"></td>
-                </tr>
-                <tr>
-                    <td> <label> Mobile No.</label></td>
-                    <td> <input type="number"></td>
-                </tr>
-                <tr>
-                    <td> <label> Email </label></td>
-                    <td> <input type="email" placeholder="abc@gmail.com"></td>
-                </tr>
-                <tr>
-                    <td><label> Enquiry </label></td>
-                    <td> <textarea rows="10" cols="30"> </textarea></td>
-                </tr>
-                <tr>
-                    <td > <button type="submit">submit</button></td>
-                    <td> <button type="reset">reset</button></td>
-                </tr>
-             </tbody>
-        </table>
+
+<head>
+    <title>contact us</title>
+    <!-- CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <style>
+        h3 {
+            font-family: "Pacifico", cursive;
+            font-size: 30px;
+            border-style: solid;
+            border-color: burlywood;
+            border-radius: 30px;
+            border-width: 10px;
+            margin-right: 900px;
+            padding-left: 20px;
+            text-underline-offset: initial;
+        }
+
+        #name {
+            font-family: 'Lobster', cursive;
+            /* color: crimson; */
+            font-size: 20px;
+        }
+
+        input[ type="text"] {
+            color: blue;
+            border-style: solid;
+            border-color: darkmagenta;
+        }
+
+        input[ type="number"] {
+            color: rgb(12, 46, 239);
+            border-style: solid;
+            border-color: darkmagenta;
+        }
+
+        input [type="email"] {
+            color: blue;
+            border-style: solid;
+            border-color: blue;
+        }
+
+        button[ type="reset"] {
+            color: brown;
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(1, 48, 9);
+            background-color: bisque
+        }
+
+        button[ type="submit"] {
+            color: brown;
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(1, 48, 9);
+            background-color: bisque
+        }
+
+        #us {
+            background-color: bisque;
+        }
+
+        textarea {
+            /* background-color: bisque; */
+            border-style: solid;
+            border-color: blueviolet;
+            border-width: 2px;
+        }
+       
+
+        body {
+            background-image: url(book.jpg);
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            background-size: 1000px 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Contact us</h3>
+    <fieldset>
+        <legend>
+            <span id="us">Contact us</span>
+        </legend>
+        <form>
+            <table>
+                <tbody id="name">
+                    <tr>
+                        <td>
+                            <lable>Full Name</lable>
+                        </td>
+                        <td>
+                            <input type="text" maxlength="10" placeholder="max character length=10" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label> Mobile No.</label></td>
+                        <td><input type="number" /></td>
+                    </tr>
+                    <tr>
+                        <td><label> Email </label></td>
+                        <td><input type="email" placeholder="abc@gmail.com" /></td>
+                    </tr>
+                    <tr>
+                        <td><label> Enquiry </label></td>
+                        <td id="area"><textarea rows="10" cols="30"> </textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="submit">submit</button></td>
+                        <td><button type="reset" class="reset">reset</button></td>
+                    </tr>
+                </tbody>
+            </table>
         </form>
-        </fieldset>
-        <strong>Follow Us</strong><i class="fa fa-facebook-square" aria-hidden="true"></i>
-    </body>
+    </fieldset>
+    <strong>Follow Us :</strong><i class="fa fa-facebook-square" aria-hidden="true"></i>
+</body>
+
 </html>
