@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Technology Stack</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-        <style>
-            table,th,tr,td {
-                border: 1px solid black;
-                border-collapse:collapse ;
-            }
-            h3{
-                color: darkmagenta;
-                background-color: bisque;
-                font-weight: bold;
-                font-size: 40px;
-                font-family: 'Lobster', cursive;
-            }
-            #head{
-                color: rgb(3, 26, 3);
-                background-color: rgb(195, 233, 29);
-                padding: 50px 20px 50px;
-            }
+  <head>
+    <title>Technology Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    
+    <style>
+      table,
+      th,
+      tr,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      h3 {
+        color: darkmagenta;
+        background-color: bisque;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: "Lobster", cursive;
+      }
+      #head th {
+        color: rgb(3, 26, 3);
+        background-color: rgb(195, 233, 29);
+        border-style: solid;
+        border-width: 2px;
+        padding: 20px 50px 20px 30px;
+      }
+      #body td{
+        column-rule-color: bisque;
+        border-style: solid;
+        padding: 20px 30px 20px 30px;
+      }
+     
+    
+      
+      body {
+        background-image: url(book.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 500px 500px;
+          }
         </style>
-    </head>
-    <body>
-        <h3>Technology Stack</h3>
-        <table>
-            <thead id="head">
-                <tr>
-                    <th>Sr.No</th>
-                    <th>Technology Stack</th>
-                    <th>Rating</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>HTML</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>CSS</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Javascript</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Angular</td>
-                    <td>3</td>
-                </tr>
-            </tbody>
-        </table>
-     </body>
+  </head>
+  <body>
+    <h3>Technology Stack</h3>
+    <table>
+      <thead id="head">
+        <tr>
+          <th>Sr.No</th>
+          <th>Technology Stack</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody id="body">
+        <tr>
+          <td>1</td>
+          <td>HTML</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>CSS</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Javascript</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Angular</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
